@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de páginas web AR</title>
+</head>
+<body>
+    <h1>Generador de páginas web AR</h1>
+    <form action="generador.php" method="post" enctype="multipart/form-data">
+        <label for="archivo">Seleccionar archivo :</label>
+        <br><br>
+        <!--accept=".gltf"-->
+        <input type="file" name="archivo" id="archivo" required>
+        <br><br>
+        <br>
+        <button type="submit">Generar y Descargar</button>
+    </form>
+</body>
+</html>
